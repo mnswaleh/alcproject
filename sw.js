@@ -6,8 +6,8 @@
 const alc_cache = 'cache_A';
 let urlsToCache = [
     './',
-    './css/custom.css',
-    './js/custom.js'
+    './custom.css',
+    './custom.js'
 ];
 
 self.addEventListener('install', function (event) {
