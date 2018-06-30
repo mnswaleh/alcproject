@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Currency Converter</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+       <div id="body"> 
+           <center><h3>Convert Currency</h3></center>
+           <form>
+               <strong>From</strong>
+               <select name="from" id="from" class="units">
+                   <option>USD</option>
+                   <option>YEN</option>
+                   <option>KSH</option>
+               </select>
+               <Strong>To</strong>
+               <select name="to" id="to" class="units">
+                   <option>USD</option>
+                   <option>YEN</option>
+                   <option>KSH</option>
+               </select><br/><br/>
+               <input type="number" name="num" id="num" value="1"/> <strong>= <span id="ans">0.00</span> <span id="ans_u">USD</span></strong>
+           </form>
+       
+       </div>
+        <script src="js/custom.js"></script>
+    </body>
+</html>
